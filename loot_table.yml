@@ -1,0 +1,185 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      Loot Table                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# You may create any amount of items that you can later assign as drop to mobs or get directly with the command 'getloot'
+# First, familiarize yourself with the syntax used to create items by observing the default loots
+
+# Useful links (ctrl + F)
+# Item material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+
+muramasa:
+  name: "Muramasa"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#B61E17>彼らに血を流させてください。"
+    - "<#B61E17>Let them bleed."
+  enchants:
+    - "sharpness:9"
+samurai_helmet:
+  name: "Samurai Helmet"
+  material: "IRON_HELMET"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:3"
+samurai_chestplate:
+  name: "Samurai Chestplate"
+  material: "DIAMOND_CHESTPLATE"
+  amount: 1
+  lore: []
+  enchants: []
+samurai_leggings:
+  name: "Samurai Leggings"
+  material: "IRON_LEGGINGS"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:6"
+samurai_sandals:
+  name: "Samurai Sandals"
+  material: "LEATHER_BOOTS"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:4"
+muramasa:
+  name: "Muramasa"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#B61E17>彼らに本当に血を流させてください。"
+    - "<#B61E17>Let them TRULY bleed."
+  enchants:
+    - "sharpness:12"
+sotrs:
+  name: "Shield of the Rising Sun"
+  material: "SHIELD"
+  dye-color: "WHITE"
+  amount: 1
+  lore: []
+  enchants: []
+  patterns:
+    - "mc:RED"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Armoured Armor                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# These are armoured armor pieces that will be given to every mob with Armoured ability, you may freely change all the attributes you want or comment out parts you don't want a armoured mob to wear, just don't rename these entries, or change their type to something completely different (e.g. you may change the netherite_sword to a golden_sword, but not to dirt)
+
+armoured_helmet:
+  name: "<#808080>Armoured Helmet"
+  material: "NETHERITE_HELMET"
+  amount: 1
+  enchants:
+    - "protection_projectile"
+
+armoured_chestplate:
+  name: "<#808080>Armoured Chestplate"
+  material: "NETHERITE_CHESTPLATE"
+  amount: 1
+  enchants:
+    - "protection_explosions"
+
+armoured_leggings:
+  name: "<#808080>Armoured Leggings"
+  material: "NETHERITE_LEGGINGS"
+  amount: 1
+  enchants:
+    - "protection_environmental"
+
+armoured_boots:
+  name: "<#808080>Armoured Boots"
+  material: "NETHERITE_BOOTS"
+  amount: 1
+  enchants:
+    - "soul_speed:2"
+
+armoured_sword:
+  name: "<#808080>Armoured Sword"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  enchants:
+    - "damage_all:2-4" # sharpness 2-4
+
+armoured_bow:
+  name: "<#808080>Armoured Bow"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_knockback:3"
+    - "arrow_damage:2"
+
+armoured_crossbow:
+  name: "<#808080>Armoured Crossbow"
+  material: "CROSSBOW"
+  amount: 1
+  enchants:
+    - "multishot:1"
+    - "piercing:1-3"
+    - "quick_charge:2-3"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Ghost Equipment                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# These are armor pieces of a Ghost, spawned when a mob with Ghost ability dies, you may freely change all the attributes you want or comment out parts you don't want a ghost to wear, just don't rename these entries, or change their type to something completely different (e.g. you may change the netherite_sword to a golden_sword, but not to dirt)
+
+ghost_helmet:
+  name: "<#808080>Ghost Head"
+  material: "SKELETON_SKULL"
+  amount: 1
+
+ghost_chestplate:
+  name: "<#808080>Ghost Chestplate"
+  material: "LEATHER_CHESTPLATE"
+  color: "240, 240, 240" # RGB
+  amount: 1
+  enchants:
+    - "protection_environmental:7-9"
+
+ghost_weapon:
+  name: "<#808080>Ghost Weapon"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_damage:3"
+
+# You may also want to implement these, just uncomment them and fill the necessary data
+
+# ghost_leggings:
+# ghost_boots:
+
+haunted_ghost_helmet:
+  name: "<#808080>Haunted Ghost Head"
+  material: "WITHER_SKELETON_SKULL"
+  amount: 1
+
+haunted_ghost_chestplate:
+  name: "<#808080>Haunted Ghost Chestplate"
+  material: "LEATHER_CHESTPLATE"
+  color: "0, 0, 0" # RGB
+  amount: 1
+  enchants:
+    - "protection_environmental:9-11"
+
+haunted_ghost_weapon:
+  name: "<#808080>Haunted Ghost Weapon"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_damage:4"
+    - "arrow_knockback"
+# You may also want to implement these, just uncomment them and fill the necessary data
+
+# haunted_ghost_leggings:
+# haunted_ghost_boots:
