@@ -76,7 +76,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     particle-type: soul
     required-items:
-      - shield_of_the_rising_sun
+      - sotrs
   samurai_helmet: # THIS IS THE SET BONUS
     effect: STRENGTH
     potency: 4
