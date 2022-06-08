@@ -102,14 +102,6 @@ charm-effects:
       - samurai_leggings
       - samurai_sandals
       - murasama
-  mon:
-    effect: GLOWING
-    potency: 1
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    required-items:
-      - mon
   murasama_2:
     effect: HEALTH_BOOST
     potency: 1
