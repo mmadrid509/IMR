@@ -20,6 +20,14 @@ muramasa:
     - "<#B61E17>Let them bleed."
   enchants:
     - "sharpness:9"
+mon:
+  name: "Mon"
+  material: "GOLD_INGOT"
+  amount: 1
+  lore:
+    - "<#FFD700>Currency of the Samurai."
+  enchants:
+    - "unbreaking:1"
 samurai_helmet:
   name: "Samurai Helmet"
   material: "IRON_HELMET"
