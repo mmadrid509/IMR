@@ -89,7 +89,7 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-  muramasa_1:
+  murasama_1:
     effect: SPEED
     potency: 5
     delay: 1.0
@@ -101,8 +101,16 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-      - muramasa
-  muramasa_2:
+      - murasama
+  mon:
+    effect: GLOWING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - mon
+  murasama_2:
     effect: HEALTH_BOOST
     potency: 1
     delay: 1.0
@@ -114,4 +122,4 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-      - muramasa
+      - murasama
